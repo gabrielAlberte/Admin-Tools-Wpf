@@ -1,0 +1,51 @@
+﻿<Window x:Class="Admin_Tools_Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Admin_Tools_Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!--
+                <ResourceDictionary Source="LightTheme.xaml"/>
+                <ResourceDictionary Source="DarkTheme.xaml"/>
+                -->
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <Grid>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        
+        <!--<Button Content="Assura" Click="Assura_Click" Margin="10,0,0,0"/>-->
+        <!--<ContentControl x:Name="NavigationContent" />-->
+        <Border Background="GhostWhite" BorderBrush="Gainsboro" BorderThickness="1" Margin="0,0,10,0">
+            <Border BorderThickness="1" BorderBrush="Gray" Margin="10">
+                <StackPanel Grid.Column="0" Margin="10" >
+                    <StackPanel Orientation="Vertical">
+                        <Button Content="Home" Click="Home_Click" Margin="5"/>
+                        <Button Content="Hospice General" Click="HospiceGeneral_Click" Margin="5"/>
+                        <Button Content="Settings" Click="Settings_Click" Margin="5"/>
+                        <!--<Button Content="Archive" Margin="5"/>-->
+                        <!--<Button Content="Switch Theme" Click="SwitchTheme_Click" Margin="10"/>-->
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Border>
+
+        <!--Content-->
+        <Border Grid.Column="1" Background="GhostWhite" BorderBrush="Gainsboro" BorderThickness="1" Padding="10">
+            <Frame Grid.Column="1" x:Name="NavigationContent"  NavigationUIVisibility="Hidden"/>
+        </Border>
+
+    </Grid>
+</Window>

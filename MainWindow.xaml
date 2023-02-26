@@ -35,8 +35,10 @@
                         <Button Content="Home" Click="Home_Click" Margin="5"/>
                         <Button Content="Hospice General" Click="HospiceGeneral_Click" Margin="5"/>
                         <Button Content="Settings" Click="Settings_Click" Margin="5"/>
-                        <!--<Button Content="Archive" Margin="5"/>-->
-                        <!--<Button Content="Switch Theme" Click="SwitchTheme_Click" Margin="10"/>-->
+                        <!--
+                        -->
+                        <Button Content="Archive" Margin="5"/>
+                        <Button Content="Switch Theme" Click="SwitchTheme_Click" Margin="10"/>
                     </StackPanel>
                 </StackPanel>
             </Border>

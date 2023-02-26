@@ -9,7 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Business\" />
+    <Compile Remove="Business\**" />
+    <EmbeddedResource Remove="Business\**" />
+    <None Remove="Business\**" />
+    <Page Remove="Business\**" />
   </ItemGroup>
 
 </Project>

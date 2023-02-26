@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Admin-Tools-Wpf", "Admin-Tools-Wpf.csproj", "{0631D601-27A2-435B-9D27-C5A95286A590}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0631D601-27A2-435B-9D27-C5A95286A590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0631D601-27A2-435B-9D27-C5A95286A590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0631D601-27A2-435B-9D27-C5A95286A590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0631D601-27A2-435B-9D27-C5A95286A590}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEA2C649-B8AA-4367-9F02-BCB8EAEAC0E8}
+	EndGlobalSection
+EndGlobal

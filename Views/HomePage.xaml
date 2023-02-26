@@ -9,6 +9,14 @@
       Title="HomePage">
 
     <Grid>
-        <TextBlock Text="Page Home :)" FontSize="30" VerticalAlignment="center" HorizontalAlignment="center" /> 
+        <TabControl x:Name="MainTabControl">
+            <TabControl.Resources>
+
+            </TabControl.Resources>
+
+            <TabItem Header="Home page">
+                <TextBlock Text="Page d'accueil en cour de construction..." />
+            </TabItem>
+        </TabControl>
     </Grid>
 </Page>
